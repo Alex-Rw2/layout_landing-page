@@ -1,3 +1,8 @@
 body {
+  background-color: $color-page;
   margin: 0;
+}
+
+* {
+  outline: 1px solid red;
 }

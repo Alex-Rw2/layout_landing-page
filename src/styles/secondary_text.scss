@@ -1,0 +1,24 @@
+.text__secondary {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  align-content: space-between;
+  gap: 120px;
+  max-width: 1400px;
+  margin: 5% auto;
+}
+
+.text__title {
+  color: $color-lyrics;
+  font-family: poppins, sans-serif;
+  font-weight: 500;
+  font-size: 65px;
+  letter-spacing: -1.5px;
+}
+
+.text__description {
+  color: $color-lyrics;
+  font-weight: 500;
+  font-size: 30px;
+  letter-spacing: 1.5px;
+}
