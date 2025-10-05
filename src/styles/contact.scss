@@ -72,27 +72,60 @@
       align-self: center;
       width: 35%;
       height: 60%;
-      background-color: wheat;
 
       .contact__enterprise-phone {
-        background-color: blue;
         width: 60%;
 
-        .enterpirse__edit-title {
-
+        .enterprise__edit-title {
+          font-family: poppins, sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          color: $color-lyrics;
         }
 
-        .enterpirse__edit-phone {
-
+        .enterprise__edit-phone {
+          font-family: poppins, sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          color: $color-lyrics;
         }
       }
 
       .contact__enterprise-email {
         width: 60%;
+
+        .enterprise__edit-title {
+          font-family: poppins, sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          color: $color-lyrics;
+        }
+
+        .enterprise__edit-describe {
+          font-family: poppins, sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          color: $color-lyrics;
+        }
       }
 
       .contact__enterprise-address {
         width: 80%;
+
+        .enterprise__edit-title {
+          font-family: poppins, sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          color: $color-lyrics;
+        }
+
+        .enterprise__edit-address {
+          margin-top: -5%;
+          font-family: poppins, sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          color: $color-lyrics;
+        }
       }
     }
   }
