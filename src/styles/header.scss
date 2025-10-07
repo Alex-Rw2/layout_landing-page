@@ -19,8 +19,7 @@
     display: flex;
     width: 100%;
     max-width: 1400px;
-    justify-content: space-between;
-    align-content: center;
+    place-content: center;
     padding-top: 15px;
 
 
@@ -51,8 +50,8 @@
     margin-top: 500px;
   }
 }
-/* #endregion */
 
+/* #endregion */
 
   /* #region menu */
 
@@ -80,9 +79,8 @@
   display: flex;
   width: 100%;
   max-width: 1400px;
-  justify-content: space-between;
-  align-content: center;
-   padding-top: 15px;
+  place-content: center;
+  padding-top: 15px;
 
   .menu__close {
     margin-left: 60%;
@@ -113,7 +111,6 @@
       color: $color-lyrics;
       font-size: 150%;
       margin-top: 20px;
-      color: $color-page;
       text-transform: uppercase;
       letter-spacing: 1px;
 
