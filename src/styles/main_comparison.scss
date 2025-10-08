@@ -1,3 +1,7 @@
+.price__card:hover {
+  transform: scale(1.06);
+}
+
 .price__comparison {
   display: flex;
   flex-direction: column;
@@ -81,8 +85,5 @@
   height: 60%;
 }
 
-.price__card:hover {
-  transform: scale(1.06);
 
-}
 
