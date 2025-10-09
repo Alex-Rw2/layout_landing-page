@@ -31,17 +31,21 @@
     .details__information--first,
     .details__information--second,
     .details__information--third {
-      margin: 2% auto;
+      margin: 1.5% auto;
       width: 100%;
 
       .details__image-bigger {
         width: 65%;
-        height: 80%;
       }
 
       .details__image-smaller {
         width: 32.4%;
+        height: 434.7px;
         margin-left: 2%;
+      }
+
+      .details__image-smaller2 {
+        height: 514px;
       }
 
       .information__title {

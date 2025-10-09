@@ -23,7 +23,7 @@
   </head>
 
   <body>
-    <!-- compare bikes colocando scale-->
+
     <header  class="header">
 
       <div class="header__top">
@@ -175,7 +175,7 @@
           src="./images/details/block_2-bigger.png"
           alt="wide view of the bike from behind"
           >
-          <img class="details__image-smaller details__image-rotate"
+          <img class="details__image-smaller details__image-rotate details__image-smaller2"
           src="./images/details/block_2-smaller.png"
           alt="wide view of the bike from the front"
           >
@@ -192,7 +192,7 @@
           src="./images/details/block_3-bigger.png"
           alt="bike bottom detail"
           >
-          <img class="details__image-smaller details__image-rotate"
+          <img class="details__image-smaller details__image-rotate details__image-smaller2"
           src="./images/details/block_3-smaller.png"
           alt="bike bottom detail"
           >
@@ -207,7 +207,7 @@
         </div>
 
       </section>
-
+      <!-- criei details__image-smaller2 para colocar as imagens na mesma altura depois preciso mudar isso para ser responsivo-->
       <div class="contact">
 
         <h2 class="contact__title">Contact us</h2>
@@ -242,11 +242,16 @@
               <textarea
                 class="contact__forms-message"
                 name="Message"
-                placeholder="Message"></textarea>
+                placeholder="Message"
+                required
+                ></textarea>
 
 
 
-              <button class="contact__forms-button">Send</button>
+              <button
+              class="contact__forms-button"
+              type="reset"
+              >Send</button>
             </div>
           </form>
 
@@ -273,8 +278,6 @@
           </address>
 
         </div>
-
-
 
       </div>
 
