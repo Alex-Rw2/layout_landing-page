@@ -12,8 +12,6 @@
     flex-direction: column;
     width: 100%;
     height: 100%;
-    display: flex;
-
 
 
     .details__title {
@@ -66,12 +64,14 @@
     }
 
 
-    /* Estilização adicional ao terceiro bloco.*/
-    .details__image-rotate{
+    /* Estilização adicional ao terceiro bloco. */
+
+    .details__image-rotate {
     transform: scaleX(-1);
     object-fit: cover;
     }
-    /*Estilização adicional ao segundo bloco.*/
+
+    /* Estilização adicional ao segundo bloco. */
 
     .details__box-button {
       margin: 2% auto;
