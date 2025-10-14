@@ -75,11 +75,13 @@
 
       .contact__enterprise-phone {
         width: 60%;
+        display: flex;
+        flex-direction: column;
 
         .enterprise__edit-title {
           font-family: poppins, sans-serif;
           font-style: normal;
-          font-weight: 400;
+          font-weight: 300;
           color: $color-lyrics;
         }
 
@@ -88,6 +90,7 @@
           font-style: normal;
           font-weight: 500;
           color: $color-lyrics;
+          margin-top: 1%;
         }
       }
 
@@ -97,7 +100,7 @@
         .enterprise__edit-title {
           font-family: poppins, sans-serif;
           font-style: normal;
-          font-weight: 400;
+          font-weight: 300;
           color: $color-lyrics;
         }
 
@@ -115,7 +118,7 @@
         .enterprise__edit-title {
           font-family: poppins, sans-serif;
           font-style: normal;
-          font-weight: 400;
+          font-weight: 300;
           color: $color-lyrics;
         }
 

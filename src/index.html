@@ -32,6 +32,10 @@
         >
 
         <div class="header__button">
+          <!-- colocando o numero no header-->
+          <aside class="header__hide-number">
+            <p>234 5555-55-55</p>
+          </aside>
 
           <a href="#">
             <img class="header__phone"
@@ -253,21 +257,29 @@
           <address class="contact__enterprise">
 
             <div class="contact__enterprise-phone">
-              <p class="enterprise__edit-title">Phone</p>
+              <p class="enterprise__edit-title" href="#">Phone</p>
 
-              <p class="enterprise__edit-phone">+1 234 5555-55-55</p>
+              <a class="enterprise__edit-phone"
+                href="tel:05384637335">
+                +1 234 5555-55-55
+              </a>
+
             </div>
 
             <div class="contact__enterprise-email">
               <p class="enterprise__edit-title">Email</p>
 
-              <p class="enterprise__edit-describe">hello@miami.com</p>
+              <a class="enterprise__edit-describe"
+                href="mailto:usuario@dominio.com">hello@miami.com</a>
             </div>
 
             <div class="contact__enterprise-address">
               <p class="enterprise__edit-title">Address</p>
 
-              <p class="enterprise__edit-address"><br>400 first ave.<br> suite 700<br> Minneapolis, MN 55401</p>
+              <a class="enterprise__edit-address"
+                href="https://www.google.com/search?q=400+first+ave.+suite+700+Minneapolis%2C+MN+55401&oq=400+first+ave.+suite+700+Minneapolis%2C+MN+55401&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yBwgCEAAY7wUyBwgDEAAY7wUyBwgEEAAY7wUyBwgFEAAY7wXSAQc1NDNqMGo3qAIIsAIB8QVmpNIO9E8NHPEFZqTSDvRPDRw&sourceid=chrome&ie=UTF-8"
+                >400 first ave.<br> suite 700<br> Minneapolis, MN 55401
+              </a>
             </div>
 
           </address>

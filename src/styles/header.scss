@@ -26,11 +26,16 @@
     .header__button {
       display: flex;
       align-items: center;
-      gap: 40%;
+      gap: 20%;
+
+      .header__hide-number {
+        width: 250px;
+        height: 40px;
+      }
 
       .header__phone {
-      width: 40px;
-      height: 40px;
+        width: 40px;
+        height: 40px;
       }
       .header__burguer {
         width: 40px;
