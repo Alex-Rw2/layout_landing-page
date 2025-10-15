@@ -28,15 +28,25 @@
       align-items: center;
       gap: 20%;
 
-      .header__hide-number {
+      .header__hide-phone {
+        align-items: center;
         width: 250px;
         height: 40px;
+
+
+        .header__hide-number {
+          margin: 10px auto;
+          font-style: normal;
+          font-weight: 200;
+          color: $color-lyrics;
+        }
       }
 
       .header__phone {
         width: 40px;
         height: 40px;
       }
+
       .header__burguer {
         width: 40px;
         height: 40px;
