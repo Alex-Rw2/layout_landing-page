@@ -26,27 +26,41 @@
     .header__button {
       display: flex;
       align-items: center;
-      gap: 20%;
+      gap: 10%;
 
-      .header__hide-phone {
-        align-items: center;
-        width: 250px;
-        height: 40px;
+      .phone-wrap {
+        display: flex;
+
+        .header__hide-phone {
+          width: 250px;
+          height: 40px;
+          display: flex;
 
 
-        .header__hide-number {
-          margin: 10px auto;
-          font-style: normal;
-          font-weight: 200;
-          color: $color-lyrics;
+          .header__hide-number {
+            margin: 10px auto;
+            font-style: normal;
+            font-weight: 200px;
+            color: $color-lyrics;
+
+            opacity: 0;
+            visibility: hidden;
+            pointer-events: auto;
+          }
+        }
+
+        .header__hide-phone:hover .header__hide-number {
+          opacity: 1;
+          visibility: visible;
+          pointer-events: auto;
+        }
+
+
+        .header__phone {
+          width: 40px;
+          height: 40px;
         }
       }
-
-      .header__phone {
-        width: 40px;
-        height: 40px;
-      }
-
       .header__burguer {
         width: 40px;
         height: 40px;
@@ -138,5 +152,6 @@
 }
 
   /* #endregion */
+
 
 
